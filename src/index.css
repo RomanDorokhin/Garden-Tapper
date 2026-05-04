@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 120 30% 8%;
+    --foreground: 0 0% 98%;
+    --card: 120 20% 10%;
+    --card-foreground: 0 0% 98%;
+    --popover: 120 20% 10%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 45 100% 50%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 120 10% 15%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 120 10% 15%;
+    --muted-foreground: 0 0% 60%;
+    --accent: 120 10% 15%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 120 10% 20%;
+    --input: 120 10% 20%;
+    --ring: 45 100% 50%;
+    --radius: 0.75rem;
+  }
+
+  html, body, #root {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    touch-action: none;
+    -webkit-tap-highlight-color: transparent;
+    background: #0d2010;
+    color: white;
+  }
+
+  body {
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  }
+}
